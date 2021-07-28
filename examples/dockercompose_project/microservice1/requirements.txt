@@ -8,3 +8,4 @@ redis==3.5.3
 requests==2.24.0
 six==1.15.0
 yarl==1.6.1
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability

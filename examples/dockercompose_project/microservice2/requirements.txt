@@ -1,5 +1,5 @@
 panini==0.1.2
-aiohttp==3.7.4
+aiohttp==3.8.0
 aiohttp-cors==0.7.0
 async-timeout==3.0.1
 asyncio-nats-client==0.11.2
@@ -8,3 +8,4 @@ redis==3.5.3
 requests==2.24.0
 six==1.15.0
 yarl==1.6.1
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
